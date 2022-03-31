@@ -1,0 +1,99 @@
+body{
+    background-color: #1e1e1e;
+  }
+  
+  .p{
+    top: 50%
+  }
+  .Argazkia{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .galdera1{
+    position: fixed;
+    top:37px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera2{
+    position: fixed;
+    top:76px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera3{
+    position: fixed;
+    top:107px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera4{
+    position: fixed;
+    top:175px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera5{
+    position: fixed;
+    top:262px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera6{
+    position: fixed;
+    top:298px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera7{
+    position: fixed;
+    top:467px;
+    left:862px;
+    z-index: 2; 
+  }
+  .galdera8{
+    position: fixed;
+    top:615px;
+    left:1148px;
+    z-index: 2; 
+  }
+  .galdera9{
+    position: fixed;
+    top:751px;
+    left:1020px;
+    z-index: 2; 
+  }
+  .galdera10{
+    position: fixed;
+    top:865px;
+    left:910px;
+    z-index: 2; 
+  }
+  .button{
+    position: fixed;
+    top: 493px;
+    left: 219px;
+  }
+  
+  .divgrandote{
+    background-color: white;
+    border: 2px solid black;
+    position: fixed;
+    top: 317px;
+    left: 127px;
+    width: 250px;
+    height: 100px;
+    z-index: 3;
+  }
+  
+  .divchikito{
+  position: absolute;
+  top: 42px;
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  
+  }

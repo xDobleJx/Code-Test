@@ -1,0 +1,71 @@
+<html>
+    <title>Test2</title>
+    <head>
+        <link href=Test2.css eta HTML lotu rel="stylesheet">
+    </head>
+    <body>
+        <img class="Argazkia" src="Test.png">
+        <input class="galdera1" id="1" placeholder="Zer egiten du hau?">
+        <input class="galdera2" id="2" placeholder="Zer egiten du hau?">
+        <input class="galdera3" id="3" placeholder="Zer egiten du hau?">
+        <input class="galdera4" id="4" placeholder="Zer egiten du hau?">
+        <input class="galdera5" id="5" placeholder="Zer egiten du hau?">
+        <input class="galdera6" id="6" placeholder="Zer egiten du hau?">
+        <input class="galdera7" id="7" placeholder="Zer egiten du hau?">
+        <input class="galdera8" id="8" placeholder="Zer egiten du hau?">
+        <input class="galdera9" id="9" placeholder="Zer egiten du hau?">
+        <input class="galdera10" id="10" placeholder="Zer egiten du hau?">
+        <button class="button" type="Button" onclick="egiaztatu()">Egiaztatu</button>     
+        
+        <div class="divgrandote" id="grandote" >
+            <div class="divchikito" id="resultados">Resultado</div>
+        </div>
+
+    <script>
+    
+
+        function egiaztatu()
+        {     
+            let Respuestas= 0;
+            var A= document.getElementById("1").value.toLowerCase();
+            var B= document.getElementById("2").value.toLowerCase();
+            var C= document.getElementById("3").value.toLowerCase();
+            var D= document.getElementById("4").value.toLowerCase();
+            var E= document.getElementById("5").value.toLowerCase();
+            var F= document.getElementById("6").value.toLowerCase();
+            var G= document.getElementById("7").value.toLowerCase();
+            var H= document.getElementById("8").value.toLowerCase();
+            var I= document.getElementById("9").value.toLowerCase();
+            var J= document.getElementById("10").value.toLowerCase();
+                         
+            if (A== "izenburua aldatu") {Respuestas= Respuestas+1; document.getElementById("1").style.borderColor="#008000";}
+            if (B== "css eta html lotu") {Respuestas= Respuestas+1; document.getElementById("2").style.borderColor="#008000";} 
+            if (C== "argazkia sortu") {Respuestas= Respuestas+1; document.getElementById("3").style.borderColor="#008000";} 
+            if (D== "galdetegia sortu") {Respuestas= Respuestas+1; document.getElementById("4").style.borderColor="#008000";} 
+            if (E== "botoia sortu") {Respuestas= Respuestas+1; document.getElementById("5").style.borderColor="#008000";} 
+            if (F== "erantzunaren karratua sortu") {Respuestas= Respuestas+1; document.getElementById("6").style.borderColor="#008000";} 
+            if (G== "hartu galdetegiaren erantzunak") {Respuestas= Respuestas+1; document.getElementById("7").style.borderColor="#008000";} 
+            if (H== "erantzuna ondo badago kontatzailea igo eta ertzaren kolorea aldatu") {Respuestas= Respuestas+1; document.getElementById("8").style.borderColor="#008000";}         
+            if (I== "erantzuna txarto badago ertzaren kolorea aldatu") {Respuestas= Respuestas+1; document.getElementById("9").style.borderColor="#008000";} 
+            if (J== "zenbat eranzun ondo dagoen ezaten du") {Respuestas= Respuestas+1; document.getElementById("10").style.borderColor="#008000";} 
+
+            if (A!= "izenburua aldatu") {document.getElementById("1").style.borderColor="ff0000";}
+            if (B!= "css eta html lotu") {document.getElementById("2").style.borderColor="ff0000";} 
+            if (C!= "argazkia sortu") {document.getElementById("3").style.borderColor="ff0000";} 
+            if (D!= "galdetegia sortu") {document.getElementById("4").style.borderColor="ff0000";} 
+            if (E!= "botoia sortu") {document.getElementById("5").style.borderColor="ff0000";} 
+            if (F!= "erantzunaren karratua sortu") {document.getElementById("6").style.borderColor="ff0000";} 
+            if (G!= "hartu galdetegiaren erantzunak") {document.getElementById("7").style.borderColor="ff0000";} 
+            if (H!= "erantzuna ondo badago kontatzailea igo eta ertzaren kolorea aldatu") {document.getElementById("8").style.borderColor="ff0000";}         
+            if (I!= "erantzuna txarto badago ertzaren kolorea aldatu") {document.getElementById("9").style.borderColor="ff0000";} 
+            if (J!= "zenbat eranzun ondo dagoen ezaten du") {document.getElementById("10").style.borderColor="ff0000";} 
+
+            if(Respuestas==10){document.getElementById("grandote").style.borderColor="#008000"}
+            document.getElementById("resultados").innerHTML=Respuestas
+            console.log(Respuestas);
+    
+        }
+    </script>
+    
+    </body>
+    
